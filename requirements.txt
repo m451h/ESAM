@@ -1,0 +1,9 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+pyarrow>=15
+openpyxl>=3.1
+matplotlib>=3.8
+statsmodels>=0.14
+joblib>=1.3

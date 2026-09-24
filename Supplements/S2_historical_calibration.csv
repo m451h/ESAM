@@ -1,0 +1,7 @@
+﻿target,design,n,n_pos,cal_intercept,cal_slope,brier,ece,provenance
+dexa_low_bone_mass,person,20238,2726,-0.1069200743268533,0.8978890724251158,0.1043530010577846,0.0137180324043263,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted
+dexa_low_bone_mass,protocol,15404,2086,-0.1858462646114586,0.8284806709006222,0.1065092075843568,0.0199232819013053,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted
+dexa_low_bone_mass,temporal,5670,1193,-0.3174232012906449,0.4222039566864335,0.1715442947177255,0.1010115164957394,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted
+prostate_heterogeneous,person,13921,2038,0.017780224759696,0.954438422054112,0.0969937394389643,0.0110646500334871,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted
+prostate_heterogeneous,protocol,8203,1355,0.2629157305228317,0.837187377648131,0.1149889122261686,0.0491820230220785,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted
+prostate_heterogeneous,temporal,4228,1155,0.4118585214396834,0.5157477967322168,0.2081209584468993,0.165450551373546,Transcribed from archive results/tables/main_results.csv; historical gbdt D_full_core; not refitted

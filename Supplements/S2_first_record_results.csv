@@ -1,0 +1,5 @@
+﻿Outcome,Design,Model,N,Positive,Folds / groups,AUROC (95% interval),Cal. intercept,Cal. slope,provenance
+Low bone mass,Person-grouped,"Native boosting, 50 predictors","6,567",615,5,0.840 (0.826–0.854),-0.064,0.841,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Low bone mass,Screening-group held out,"Native boosting, 50 predictors","4,173",343,8,0.795 (0.769–0.819),0.185,0.962,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Prostate echotexture,Person-grouped,"Native boosting, 50 predictors","5,809",595,5,0.869 (0.854–0.882),-0.014,0.838,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Prostate echotexture,Screening-group held out,"Native boosting, 50 predictors","1,816",246,4,0.748 (0.696–0.799),0.413,0.826,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun

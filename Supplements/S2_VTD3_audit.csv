@@ -1,0 +1,9 @@
+﻿Audit item,Estimate / value,Interpretation,provenance
+"Complete labelled records with VT D3, age, sex","18,428",Full eligible records for descriptive logistic audit,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+"OR per 10 source units, age/sex adjusted",1.523,Descriptive; not causal,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+"OR per 10 source units, + screening-group and batch adjustment",0.965,Strong attenuation after operational adjustment,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+First-record complete cases,"5,235",First-record descriptive audit,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+"First-record OR, age/sex adjusted",1.594,Descriptive; not causal,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+"First-record OR, + screening-group and batch adjustment",0.919,Attenuation persists,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Earliest extraction batch,No observed VT D3,Missingness varies by batch,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Observed batch medians,23.4–24.7 in 1398 part 2 through 1399; 38.6–39.7 in 1401,Illustrates batch/time variation; not assay proof,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun

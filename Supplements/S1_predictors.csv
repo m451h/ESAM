@@ -1,0 +1,104 @@
+﻿Block,Predictor,Type,Coding / transformation,Unit provenance,49-variable candidate,provenance
+Demographics,"Age
+Field: age",Numeric,Approx. visit year minus birth year; unusable/out-of-range values set missing,years,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Demographics,"Male indicator
+Field: male",Binary,"1 for the exact recorded male category; 0 otherwise, including missing/unrecognised values. Exact positive string:
+مرد",0/1,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Vital measurements,"BMI
+Field: شاخص توده بدنی",Numeric,Recorded body mass index; retained numeric range 12 to 70 inclusive; outside range set missing,kg/m²,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Vital measurements,"Systolic blood pressure
+Field: فشار خون سیستول",Numeric,Recorded systolic pressure; retained numeric range 70 to 260 inclusive; outside range set missing,mmHg,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Vital measurements,"Diastolic blood pressure
+Field: فشار خون دیاستول",Numeric,Recorded diastolic pressure; retained numeric range 35 to 160 inclusive; outside range set missing,mmHg,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Fasting glucose
+Field: Fasting Blood Sugar",Numeric,Recorded source value; retained numeric range 40 to 500 inclusive; outside range set missing,mg/dL in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Urea
+Field: Blood Urea",Numeric,Recorded source value; retained numeric range 2 to 200 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Creatinine
+Field: Creatinine",Numeric,Recorded source value; retained numeric range 0.2 to 15 inclusive; outside range set missing,mg/dL in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Uric acid
+Field: Uric Acid",Numeric,Recorded source value; retained numeric range 0.5 to 20 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Total cholesterol
+Field: Cholesterol",Numeric,Recorded source value; retained numeric range 50 to 500 inclusive; outside range set missing,mg/dL in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Triglycerides
+Field: Triglycerides",Numeric,Recorded source value; retained numeric range 10 to 2000 inclusive; outside range set missing,mg/dL in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"HDL
+Field: HDL cholestrol",Numeric,Recorded source value; retained numeric range 10 to 150 inclusive; outside range set missing,mg/dL in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"LDL
+Field: LDL cholestrol",Numeric,Recorded source value; retained numeric range 10 to 350 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Calcium
+Field: Calcium",Numeric,Recorded source value; retained numeric range 5 to 15 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Phosphorus
+Field: Phosphorus",Numeric,Recorded source value; retained numeric range 1 to 10 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Total bilirubin
+Field: Total Bilirubin",Numeric,Recorded source value; retained numeric range 0.05 to 20 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Direct bilirubin
+Field: Direct bilirubin",Numeric,Recorded source value; retained numeric range 0.01 to 15 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"AST
+Field: SGOT (AST)",Numeric,Recorded source value; retained numeric range 2 to 1000 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"ALT
+Field: SGPT (ALT)",Numeric,Recorded source value; retained numeric range 2 to 1000 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Alkaline phosphatase
+Field: Alkaline phosphatase",Numeric,Recorded source value; retained numeric range 20 to 2000 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"ESR
+Field: ESR",Numeric,Recorded source value; retained numeric range 1 to 150 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"TSH
+Field: TSH",Numeric,Recorded source value; retained numeric range 0.005 to 150 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"VT D3
+Field: VT D3",Numeric,Recorded source value; post hoc audit found strong group/batch sensitivity; retained numeric range 2 to 150 inclusive; outside range set missing,Source units not verified,Excluded from 49-predictor candidates,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Ferritin
+Field: FER",Numeric,Recorded source value; retained numeric range 1 to 2000 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"Iron
+Field: IRON",Numeric,Recorded source value; retained numeric range 5 to 500 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"TIBC
+Field: TIBC",Numeric,Recorded source value; retained numeric range 100 to 700 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Chemistry,"HbA1c
+Field: A1C",Numeric,Recorded source value; retained numeric range 3 to 20 inclusive; outside range set missing,% in manuscript table; verify source,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Haemoglobin
+Field: HB",Numeric,Recorded source value; retained numeric range 5 to 22 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Haematocrit
+Field: HCT",Numeric,Recorded source value; retained numeric range 15 to 70 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"MCV
+Field: MCV",Numeric,Recorded source value; retained numeric range 50 to 130 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"MCH
+Field: MCH",Numeric,Recorded source value; retained numeric range 15 to 45 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"MCHC
+Field: MCHC",Numeric,Recorded source value; retained numeric range 25 to 40 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Platelets
+Field: PLT",Numeric,Recorded source value; retained numeric range 10 to 1000 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"RDW-CV
+Field: RDW.CV",Numeric,Recorded source value; retained numeric range 8 to 30 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"RDW-SD
+Field: RDW.SD",Numeric,Recorded source value; retained numeric range 20 to 100 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"White cell count
+Field: WBC.1",Numeric,Recorded source value; retained numeric range 1 to 60 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Red cell count
+Field: RBC.1",Numeric,Recorded source value; retained numeric range 2 to 9 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Neutrophil index
+Field: N",Numeric,Recorded source value; retained numeric range 5 to 95 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Lymphocyte index
+Field: L",Numeric,Recorded source value; retained numeric range 2 to 90 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Monocyte index
+Field: M",Numeric,Recorded source value; retained numeric range 0 to 30 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Eosinophil index
+Field: EO",Numeric,Recorded source value; retained numeric range 0 to 30 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"Basophil index
+Field: BAS",Numeric,Recorded source value; retained numeric range 0 to 10 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"MPV
+Field: MPV",Numeric,Recorded source value; retained numeric range 5 to 20 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Haematology,"PDW
+Field: PDW",Numeric,Recorded source value; retained numeric range 5 to 30 inclusive; outside range set missing,Not verified in manuscript,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"Neutrophil-to-
+lymphocyte ratio
+Field: nlr",Numeric derived,Neutrophils / lymphocytes; zero denominator replaced by missing,ratio,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"AST/ALT ratio
+Field: ast_alt",Numeric derived,AST / ALT; zero denominator replaced by missing,ratio,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"Triglyceride/HDL ratio
+Field: tg_hdl",Numeric derived,Triglycerides / HDL; zero denominator replaced by missing,ratio,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"Non-HDL
+cholesterol
+Field: non_hdl",Numeric derived,Total cholesterol − HDL,same units as cholesterol,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"Transferrin saturation
+Field: transferrin_sat",Numeric derived,100 × iron / TIBC; zero denominator replaced by missing,%,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
+Derived,"Pulse pressure
+Field: pulse_pressure",Numeric derived,Systolic − diastolic blood pressure,mmHg,Included,Supplied S1 table enriched by static inspection of original source code; units not independently verified
