@@ -22,8 +22,8 @@ The deployed model (`gbdt_values_only`) uses only imputed lab values — no orde
 
 ```bash
 # Clone
-git clone https://github.com/m451h/Equity-Oriented-Screening-Allocation-Model.git
-cd Equity-Oriented-Screening-Allocation-Model
+git clone https://github.com/m451h/ESAM.git
+cd ESAM
 
 # Install
 python -m pip install -r requirements.txt
@@ -111,7 +111,7 @@ See `results/REPORT.md` for the full data quality report.
 @software{equity_screening_2026,
   title  = {Equity-Oriented Screening Allocation Model},
   year   = {2026},
-  url    = {https://github.com/m451h/Equity-Oriented-Screening-Allocation-Model}
+  url    = {https://github.com/m451h/ESAM}
 }
 ```
 
