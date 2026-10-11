@@ -1,0 +1,9 @@
+﻿Audit item,Value,Interpretation,provenance
+Total visits,"36,885",Source cohort,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Reconstructed identity groups,"12,246",Birth-date + recorded-sex quasi-identifier,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Groups with ≥2 visits,"7,606",Repeat attendance under reconstructed identity,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Groups with ≥3 visits,"5,051",Repeat attendance under reconstructed identity,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Identity–visit-date groups with >1 record,111,Does not estimate true linkage error,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+First records selected,"12,246",Earliest recorded visit per reconstructed identity,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Tied earliest dates,15 identities,Resolved by processed row order,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
+Upstream anonymous identifier,Unavailable in supplied archive,True-ID merge/split audit cannot be completed,Transcribed from supplied Supplement 2; consistent with manuscript; not independently rerun
